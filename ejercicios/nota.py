@@ -6,12 +6,12 @@ nota = int(input(f'Ingrese la nota, por favor: '))
 
 i = 0
 while nota < 0 or nota > 10:
-    print('Nota invalida')
+    print(f'Nota {nota} invalida')
     nota = int(input('Por favor vuelva a ingresar una nota valida: '))
     i =+ 1
     j = 0
     while nota >= 0 and nota <= 10:
-        print('Nota valida')
+        print(f'Nota {nota} valida')
         j += 1
         break
 
