@@ -17,6 +17,7 @@ while nota < 0 or nota > 10:
 
 
 
+
     
 
     
